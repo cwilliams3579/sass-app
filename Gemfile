@@ -23,7 +23,6 @@ gem 'bootstrap', '~> 4.0.0.alpha3.1'
 gem 'high_voltage'
 group :development do
   gem 'better_errors'
-  gem 'sqlite3'
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-bundler'
   gem 'capistrano-rails', '~> 1.1.0'
@@ -40,6 +39,7 @@ group :development do
 end
 group :development, :test do
   gem 'factory_girl_rails'
+  gem 'sqlite3'
   gem 'faker'
   gem 'rspec-rails'
 end
